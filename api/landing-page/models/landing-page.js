@@ -14,7 +14,7 @@ module.exports = {
       netlifyWebhook && axios.post(netlifyWebhook);
     },
     async afterUpdate(_, __, ___){
-      netlifyWebhook && axios.post(netlifywebhook);
+      netlifyWebhook && axios.post(netlifyWebhook);
     }
   }
 };
